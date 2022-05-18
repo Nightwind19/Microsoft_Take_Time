@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="207dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/title_header"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="@dimen/title_fontsize"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/helpTextView"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/help_text"
+        android:textColor="@color/help_text_color"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleTextView" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginTop="24dp"
+        android:autofillHints="First Name"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="@string/fName_hint"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/padding_side_edittext"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpTextView" />
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginTop="@dimen/edittext_margin"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="@string/email_textview"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/padding_side_edittext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameEditText" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="@string/password_edittext"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/padding_side_edittext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <EditText
+        android:id="@+id/websiteEditText"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/website_edittext"
+        android:inputType="textMultiLine"
+        android:paddingLeft="@dimen/padding_side_edittext"
+        android:paddingTop="@dimen/text_padding_top"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:text="@string/submit_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/websiteEditText"
+        app:layout_constraintVertical_bias="0.283"
+        style="@style/button_submit_style" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

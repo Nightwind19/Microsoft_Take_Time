@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">James Mason Take Home Challenge</string>
+    <string name="title_header">Profile Creation</string>
+    <string name="help_text">Use the form below to submit your portfolio. An email and password are required.</string>
+    <string name="fName_hint">  First Name</string>
+    <string name="email_textview">  Email Address</string>
+    <string name="password_edittext">  Password</string>
+    <string name="website_edittext">  Website</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="rc_name_received">Hello</string>
+</resources>

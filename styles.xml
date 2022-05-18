@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_submit_style">
+        <item name="android:layout_width">299dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:layout_marginTop">144dp</item>
+        <item name="android:background">@drawable/rounded_corner_button</item>
+    </style>
+</resources>

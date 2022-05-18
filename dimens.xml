@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_fontsize">26sp</dimen>
+    <dimen name="title_fontSize">50dp</dimen>
+    <dimen name="edittext_width">275dp</dimen>
+    <dimen name="edittext_height">48dp</dimen>
+    <dimen name="edittext_margin">20dp</dimen>
+    <dimen name="text_padding_top">10dp</dimen>
+    <dimen name="padding_side_edittext">10sp</dimen>
+</resources>
