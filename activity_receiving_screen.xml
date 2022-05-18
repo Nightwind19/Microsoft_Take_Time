@@ -71,4 +71,16 @@
         app:layout_constraintTop_toBottomOf="@+id/secondNameFieldTextView"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="SpeakableTextPresentCheck" />
+    
+    <Button
+        android:id="@+id/button_login"
+        android:text="@string/submit_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userWebsiteEntered"
+        app:layout_constraintVertical_bias="0.283"
+        style="@style/button_submit_style" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
